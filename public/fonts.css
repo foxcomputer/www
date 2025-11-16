@@ -1,0 +1,146 @@
+/* Stack Sans Notch - Hero, H1, H2 */
+@font-face {
+    font-family: 'Stack Sans Notch';
+    src: url('./fonts/Stack_Sans_Notch/StackSansNotch-Light.woff2') format('woff2'),
+         url('./fonts/Stack_Sans_Notch/StackSansNotch-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stack Sans Notch';
+    src: url('./fonts/Stack_Sans_Notch/StackSansNotch-ExtraLight.woff2') format('woff2'),
+         url('./fonts/Stack_Sans_Notch/StackSansNotch-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stack Sans Notch';
+    src: url('./fonts/Stack_Sans_Notch/StackSansNotch-Regular.woff2') format('woff2'),
+         url('./fonts/Stack_Sans_Notch/StackSansNotch-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stack Sans Notch';
+    src: url('./fonts/Stack_Sans_Notch/StackSansNotch-Medium.woff2') format('woff2'),
+         url('./fonts/Stack_Sans_Notch/StackSansNotch-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stack Sans Notch';
+    src: url('./fonts/Stack_Sans_Notch/StackSansNotch-SemiBold.woff2') format('woff2'),
+         url('./fonts/Stack_Sans_Notch/StackSansNotch-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stack Sans Notch';
+    src: url('./fonts/Stack_Sans_Notch/StackSansNotch-Bold.woff2') format('woff2'),
+         url('./fonts/Stack_Sans_Notch/StackSansNotch-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Stack Sans Headline - H3, H4, H5 */
+@font-face {
+    font-family: 'Stack Sans Headline';
+    src: url('./fonts/Stack_Sans_Headline/StackSansHeadline-ExtraLight.woff2') format('woff2'),
+         url('./fonts/Stack_Sans_Headline/StackSansHeadline-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stack Sans Headline';
+    src: url('./fonts/Stack_Sans_Headline/StackSansHeadline-Light.woff2') format('woff2'),
+         url('./fonts/Stack_Sans_Headline/StackSansHeadline-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stack Sans Headline';
+    src: url('./fonts/Stack_Sans_Headline/StackSansHeadline-Regular.woff2') format('woff2'),
+         url('./fonts/Stack_Sans_Headline/StackSansHeadline-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stack Sans Headline';
+    src: url('./fonts/Stack_Sans_Headline/StackSansHeadline-Medium.woff2') format('woff2'),
+         url('./fonts/Stack_Sans_Headline/StackSansHeadline-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stack Sans Headline';
+    src: url('./fonts/Stack_Sans_Headline/StackSansHeadline-SemiBold.woff2') format('woff2'),
+         url('./fonts/Stack_Sans_Headline/StackSansHeadline-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stack Sans Headline';
+    src: url('./fonts/Stack_Sans_Headline/StackSansHeadline-Bold.woff2') format('woff2'),
+         url('./fonts/Stack_Sans_Headline/StackSansHeadline-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Stack Sans Text - Body text */
+@font-face {
+    font-family: 'Stack Sans Text';
+    src: url('./fonts/Stack_Sans_Text/StackSansText-ExtraLight.woff2') format('woff2'),
+         url('./fonts/Stack_Sans_Text/StackSansText-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stack Sans Text';
+    src: url('./fonts/Stack_Sans_Text/StackSansText-Light.woff2') format('woff2'),
+         url('./fonts/Stack_Sans_Text/StackSansText-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stack Sans Text';
+    src: url('./fonts/Stack_Sans_Text/StackSansText-Regular.woff2') format('woff2'),
+         url('./fonts/Stack_Sans_Text/StackSansText-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stack Sans Text';
+    src: url('./fonts/Stack_Sans_Text/StackSansText-Medium.woff2') format('woff2'),
+         url('./fonts/Stack_Sans_Text/StackSansText-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stack Sans Text';
+    src: url('./fonts/Stack_Sans_Text/StackSansText-SemiBold.woff2') format('woff2'),
+         url('./fonts/Stack_Sans_Text/StackSansText-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stack Sans Text';
+    src: url('./fonts/Stack_Sans_Text/StackSansText-Bold.woff2') format('woff2'),
+         url('./fonts/Stack_Sans_Text/StackSansText-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
