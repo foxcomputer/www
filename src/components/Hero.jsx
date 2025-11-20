@@ -11,10 +11,12 @@ export const Hero = () => {
       <nav className="nav-bar">
         <div className="nav-content">
           <button className="nav-logo" onClick={scrollToTop}>
-            f.c
+            fox.computer
           </button>
           <div className="nav-links">
-            {/* Links placeholder */}
+            <a href="#work">Work</a>
+            <a href="#log">Log</a>
+            <a href="#about">About</a>
           </div>
         </div>
       </nav>
@@ -30,13 +32,18 @@ export const Hero = () => {
             </span>
 
             <div className="hero-card__inner">
+              <div className="fox-mascot">🦊</div>
               <h1 className="hero-main-title">
                 fox.computer
               </h1>
-              
+
               <h2 className="hero-subtitle-text">
-                computers can be calm
+                Technology should feel fun, expressive, and alive.
               </h2>
+
+              <p className="hero-description">
+                A digital playground for design, code, and chaos.
+              </p>
             </div>
           </div>
         </div>
