@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+# fox.computer — Brand README
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🦊 Overview
 
-## Available Scripts
+**fox.computer** is a personal brand, portfolio, and experimental digital playground built around a simple core idea:
 
-In the project directory, you can run:
+**Technology should feel fun, expressive, and alive — never corporate or sterile.**
 
-### `npm start`
+It represents a design-focused, curiosity-driven identity that mixes aesthetics, code, humor, and chaos into one cohesive vibe.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🎨 Brand Identity
 
-### `npm test`
+### Core Vibe  
+playful · nerdy · sleek · mischievous · expressive · tech-y but friendly
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Visual Tone
+- Minimal but stylized  
+- Soft neon + monochrome  
+- Cute fox/mascot energy  
+- Rounded corners, smooth transitions  
+- High contrast without heaviness  
+- Overall: “Apple keynote meets a chaotic fox mascot”
 
-### `npm run build`
+### Personality Tone
+- Energetic  
+- Internet-native  
+- Slightly unhinged but charming  
+- Youthful, clever, and self-aware  
+- Absolutely not corporate
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🌐 Website Goals
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The **fox.computer** website serves as:
 
-### `npm run eject`
+1. **Brand Homebase**  
+   The face of the fox.computer universe.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. **Portfolio**  
+   - Design work  
+   - Coding projects  
+   - Experiments  
+   - Visual/playful showcases
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **Dev Log / Microblog**  
+   - Fast updates  
+   - WIP notes  
+   - Site evolution timeline  
+   - Short-form thoughts
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. **Identity Anchor**  
+   A consistent branded space that reflects Felix's entire creative identity.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5. **Interactive Playground**  
+   - Cursor effects  
+   - Fox animations  
+   - Easter eggs  
+   - Experimental UI/UX sections
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🧩 Brand Philosophy
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Design should feel alive.**  
+  Animations matter. Micro-interactions matter. Personality matters.
 
-### Code Splitting
+- **Minimalism doesn’t have to be boring.**  
+  Clean layouts + expressive character = peak.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Fun is a feature.**  
+  Not everything needs to be serious or “innovative.” Sometimes it should just spark joy.
 
-### Analyzing the Bundle Size
+- **Everything is iterative.**  
+  The site evolves publicly — new ideas, rewrites, redesigns, dev logs, and experiments are part of the brand.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🔧 Technical Attitude
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Modern, clean frontend  
+- Fast, lightweight, snappy  
+- Prefer hand-crafted UI over library-default looks  
+- Brand-first UX decisions  
+- Built to be extended easily (blogs, project pages, experiments)
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🦊 Future Plans
 
-### Deployment
+- Expand the fox mascot into reactive UI elements  
+- Add mini-apps and experiments  
+- Build deeper project case studies  
+- Introduce more interactive Easter eggs  
+- Continuously redesign sections as the brand evolves  
+- Integrate AI-driven features for logs and updating content structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 📌 Summary
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**fox.computer** isn’t just a website — it’s Felix’s little universe.  
+A place where design, code, personality, and experimentation collide into something uniquely expressive.
+
