@@ -1,0 +1,9 @@
+I am the owner of fox.computer, a FOSS organization maintained by me and my brother. Make the main website
+for fox.computer using this:
+https://github.com/catppuccin/ui
+https://storybook.js.org/
+https://ui.shadcn.com/
+
+Use the catppuccin/ui framework for the UI. And Maple Mono WOFF2s from the fonts/ folder for the fonts. Do not push
+this prompt file when pushing or committing.
+GitHub of fox.computer: https://github.com/foxcomputer/
