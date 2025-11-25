@@ -227,6 +227,10 @@
     font-family: 'Stack Sans Text', system-ui, -apple-system, sans-serif;
   }
   
+  html {
+    scroll-behavior: smooth;
+  }
+  
   body {
     @apply bg-background text-foreground;
   }
@@ -245,6 +249,94 @@
   a, span, p, div, button, input, textarea, select {
     font-family: inherit;
   }
+}
+
+/* Rainbow gradient animation for buttons */
+@keyframes rainbow-glow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.btn-rainbow-hover {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.btn-rainbow-hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 128, 0.15),
+    rgba(255, 128, 0, 0.15),
+    rgba(255, 255, 0, 0.15),
+    rgba(0, 255, 128, 0.15),
+    rgba(0, 128, 255, 0.15),
+    rgba(128, 0, 255, 0.15),
+    rgba(255, 0, 128, 0.15)
+  );
+  background-size: 200% 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+  border-radius: inherit;
+}
+
+.btn-rainbow-hover:hover::before {
+  opacity: 1;
+  animation: rainbow-glow 3s linear infinite;
+}
+
+.btn-rainbow-hover:hover {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+/* Rainbow effect for project card icons */
+.project-icon-rainbow {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.project-icon-rainbow::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 128, 0.2),
+    rgba(255, 128, 0, 0.2),
+    rgba(255, 255, 0, 0.2),
+    rgba(0, 255, 128, 0.2),
+    rgba(0, 128, 255, 0.2),
+    rgba(128, 0, 255, 0.2),
+    rgba(255, 0, 128, 0.2)
+  );
+  background-size: 200% 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+.project-icon-rainbow:hover::after {
+  opacity: 1;
+  animation: rainbow-glow 3s linear infinite;
 }
 
 

@@ -47,8 +47,8 @@ const About: React.FC = () => {
                 Want to collaborate or just say hi?
               </p>
               <a 
-                href="mailto:hellofox.computer@proton.me" 
-                className="inline-block mt-4 px-6 py-3 rounded-lg font-medium bg-primary text-primary-foreground hover:bg-primary/90 transition-all hover:scale-[1.02]"
+                href="mailto:hello@fox.computer" 
+                className="btn-rainbow-hover inline-block mt-4 px-6 py-3 rounded-lg font-medium bg-primary text-primary-foreground hover:bg-primary/90 transition-all hover:scale-[1.02]"
               >
                 Get in Touch
               </a>
