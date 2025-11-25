@@ -6,9 +6,7 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-6 max-w-7xl">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-2">
-            <div className="w-6 h-6 rounded bg-secondary flex items-center justify-center text-foreground font-bold text-xs">
-              F
-            </div>
+            <img src="/vite.svg" alt="Fox Computer" className="w-6 h-6 rounded" />
             <span className="font-semibold text-foreground">fox.computer</span>
           </div>
           
