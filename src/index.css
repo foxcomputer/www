@@ -1,3 +1,114 @@
+/* Stack Sans Fonts */
+/* Stack Sans Text - Body/Normal Text */
+@font-face {
+  font-family: "Stack Sans Text";
+  src: url("/fonts/Stack_Sans_Text/StackSansText-Regular.woff2") format("woff2"),
+    url("/fonts/Stack_Sans_Text/StackSansText-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Stack Sans Text";
+  src: url("/fonts/Stack_Sans_Text/StackSansText-Medium.woff2") format("woff2"),
+    url("/fonts/Stack_Sans_Text/StackSansText-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Stack Sans Text";
+  src: url("/fonts/Stack_Sans_Text/StackSansText-SemiBold.woff2")
+      format("woff2"),
+    url("/fonts/Stack_Sans_Text/StackSansText-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Stack Sans Text";
+  src: url("/fonts/Stack_Sans_Text/StackSansText-Bold.woff2") format("woff2"),
+    url("/fonts/Stack_Sans_Text/StackSansText-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Stack Sans Headline - H3 to H6 */
+@font-face {
+  font-family: "Stack Sans Headline";
+  src: url("/fonts/Stack_Sans_Headline/StackSansHeadline-Regular.woff2")
+      format("woff2"),
+    url("/fonts/Stack_Sans_Headline/StackSansHeadline-Regular.woff")
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Stack Sans Headline";
+  src: url("/fonts/Stack_Sans_Headline/StackSansHeadline-Medium.woff2")
+      format("woff2"),
+    url("/fonts/Stack_Sans_Headline/StackSansHeadline-Medium.woff")
+      format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Stack Sans Headline";
+  src: url("/fonts/Stack_Sans_Headline/StackSansHeadline-SemiBold.woff2")
+      format("woff2"),
+    url("/fonts/Stack_Sans_Headline/StackSansHeadline-SemiBold.woff")
+      format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Stack Sans Headline";
+  src: url("/fonts/Stack_Sans_Headline/StackSansHeadline-Bold.woff2")
+      format("woff2"),
+    url("/fonts/Stack_Sans_Headline/StackSansHeadline-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Stack Sans Notch - Hero, H1, H2 */
+@font-face {
+  font-family: "Stack Sans Notch";
+  src: url("/fonts/Stack_Sans_Notch/StackSansNotch-Regular.woff2")
+      format("woff2"),
+    url("/fonts/Stack_Sans_Notch/StackSansNotch-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Stack Sans Notch";
+  src: url("/fonts/Stack_Sans_Notch/StackSansNotch-Medium.woff2")
+      format("woff2"),
+    url("/fonts/Stack_Sans_Notch/StackSansNotch-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Stack Sans Notch";
+  src: url("/fonts/Stack_Sans_Notch/StackSansNotch-SemiBold.woff2")
+      format("woff2"),
+    url("/fonts/Stack_Sans_Notch/StackSansNotch-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Stack Sans Notch";
+  src: url("/fonts/Stack_Sans_Notch/StackSansNotch-Bold.woff2") format("woff2"),
+    url("/fonts/Stack_Sans_Notch/StackSansNotch-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -113,8 +224,27 @@
 @layer base {
   * {
     @apply border-border outline-ring/50;
+    font-family: 'Stack Sans Text', system-ui, -apple-system, sans-serif;
   }
+  
   body {
     @apply bg-background text-foreground;
   }
+  
+  /* Hero and large headings - Stack Sans Notch */
+  h1, h2 {
+    font-family: 'Stack Sans Notch', system-ui, -apple-system, sans-serif;
+  }
+  
+  /* Medium headings - Stack Sans Headline */
+  h3, h4, h5, h6 {
+    font-family: 'Stack Sans Headline', system-ui, -apple-system, sans-serif;
+  }
+  
+  /* Ensure links, spans, and other text elements use Stack Sans Text */
+  a, span, p, div, button, input, textarea, select {
+    font-family: inherit;
+  }
 }
+
+
