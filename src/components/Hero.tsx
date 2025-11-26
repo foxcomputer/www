@@ -4,10 +4,6 @@ const Hero: React.FC = () => {
   return (
     <section className="min-h-screen flex items-center justify-center relative pt-20 overflow-hidden">
       <div className="container mx-auto px-6 max-w-7xl text-center relative z-10">
-        <div className="inline-block mb-6 px-4 py-1.5 rounded-full bg-secondary/50 border border-border text-sm font-medium text-muted-foreground">
-          Open Source Software
-        </div>
-
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-8 text-foreground">
           Computers can be <br />
           <span className="text-muted-foreground">fun again.</span>
