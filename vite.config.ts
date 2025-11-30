@@ -9,7 +9,13 @@ export default defineConfig({
   plugins: [
     react(),      // from your template
     tailwindcss(), // added from shadcn guide
-    svgr(),
+    svgr({
+      svgrOptions: {
+        svgProps: {
+          fill: 'currentColor',
+        },
+      },
+    }),
   ],
   resolve: {
     alias: {
