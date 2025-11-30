@@ -1,6 +1,6 @@
 # foxcomputer Website
 
-Modern, open-source focused website built with React 19, Tailwind CSS v4, and Shadcn/UI.
+Modern, open-source website for foxcomputer, built with React 19, Tailwind CSS v4, and Shadcn/UI.
 
 ## Tech Stack
 
