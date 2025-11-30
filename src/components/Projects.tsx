@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import CodeIcon from "@hackernoon/pixel-icon-library/icons/SVG/regular/code.svg?react";
 import ProjectCard from './ProjectCard';
 
 interface GitHubRepo {
@@ -40,9 +41,7 @@ const Projects: React.FC = () => {
   const getProjectIcon = (repoName: string) => {
     if (repoName.toLowerCase() === 'vanillamd') {
       return (
-        <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14" />
-        </svg>
+        <CodeIcon className="w-5 h-5" />
       );
     }
     return undefined;
