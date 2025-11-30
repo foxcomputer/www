@@ -260,6 +260,14 @@
   select {
     font-family: inherit;
   }
+  
+  /* Pixelated rendering for icons */
+  svg {
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    shape-rendering: crispEdges;
+  }
 }
 
 /* Rainbow gradient animation for buttons */
