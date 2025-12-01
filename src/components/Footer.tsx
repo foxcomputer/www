@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
           </div>
           
           <div className="text-muted-foreground text-sm">
-            © {new Date().getFullYear()} Fox Computer. Open Source Forever.
+            © {new Date().getFullYear()} foxcomputer
           </div>
           
           <div className="flex items-center gap-6">
