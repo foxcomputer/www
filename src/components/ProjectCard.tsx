@@ -1,6 +1,6 @@
 import React from 'react';
-import ExternalLinkIcon from "@hackernoon/pixel-icon-library/icons/SVG/regular/external-link.svg?react"
-import GitHubIcon from "@hackernoon/pixel-icon-library/icons/SVG/brands/github.svg?react";
+import ExternalLinkIcon from "pixelarticons/svg/external-link.svg?react"
+import GitHubIcon from "pixelarticons/svg/github.svg?react"
 
 interface ProjectCardProps {
   title: string;

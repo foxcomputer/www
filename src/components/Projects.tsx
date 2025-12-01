@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import CodeIcon from "@hackernoon/pixel-icon-library/icons/SVG/regular/code.svg?react";
+import CodeIcon from "pixelarticons/svg/code.svg?react"
 import ProjectCard from './ProjectCard';
 
 interface GitHubRepo {

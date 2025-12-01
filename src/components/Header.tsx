@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import ThemeSwitcher from './ThemeSwitcher';
-import GitHubIcon from "@hackernoon/pixel-icon-library/icons/SVG/brands/github.svg?react";
+import GitHubIcon from "pixelarticons/svg/github.svg?react"
 
 const Header: React.FC = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -20,8 +20,8 @@ const Header: React.FC = () => {
         scrolled ? '' : ''
       }`}
     >
-      <div className={`container mx-auto max-w-7xl rounded-2xl transition-all duration-300 ${
-        scrolled ? 'py-3 bg-background/80 backdrop-blur-md border border-border shadow-lg' : 'py-4 bg-background/60 backdrop-blur-sm border border-border/50'
+      <div className={`container mx-auto max-w-7xl rounded-2xl transition-all duration-300 py-3 ${
+        scrolled ? 'bg-background/80 backdrop-blur-md border border-border shadow-lg' : 'bg-background/60 backdrop-blur-sm border border-border/50'
       }`}>
         <div className="px-6 flex items-center justify-between">
           <div className="flex items-center gap-3">

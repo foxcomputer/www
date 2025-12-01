@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
-import SunIcon from "@hackernoon/pixel-icon-library/icons/SVG/regular/sun.svg?react";
-import MoonIcon from "@hackernoon/pixel-icon-library/icons/SVG/regular/moon.svg?react";
-import DevicesIcon from "@hackernoon/pixel-icon-library/icons/SVG/regular/themes.svg?react";
+import SunIcon from "pixelarticons/svg/sun.svg?react"
+import MoonIcon from "pixelarticons/svg/moon.svg?react"
+import DevicesIcon from "pixelarticons/svg/devices.svg?react"
 
 type Theme = 'light' | 'dark' | 'system';
 
